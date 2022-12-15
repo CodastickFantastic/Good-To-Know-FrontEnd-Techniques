@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    margin: 20px auto;
+    width: 40%;
+    user-select: none;
+}
+
+#square{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+}
